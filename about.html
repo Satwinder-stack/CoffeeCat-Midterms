@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Coffee Cat Café</title>
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" class="logo-img"></a>
+          <a href="index.html"><img src="images/logo name.png" class="logo-name"></a>
+          <button class="hamburger" aria-label="Open navigation" aria-controls="mobile-nav" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <img src="images/cats/pawprint.png" class="header-paw-print" id="paw" >
+        <div class="social-links" id="mobile-nav">
+            <a href="menu.html" class="nav-link">Menu</a>
+            <a href="features.html" class="nav-link">Features</a>
+            <a href="contact.php" class="nav-link">Contact</a>
+            <a href="location.html" class="nav-link">Location</a>
+            <a href="cart.html" class="nav-link">Cart</a>
+        </div>
+      </header>
+    <nav class="breadcrumb">
+        <a href="index.html">Home</a> / <span>About</span>
+    </nav>
+    <main>
+        <section class="about-intro">
+            <h1>Welcome to Coffee Cat Café!</h1>
+            <p>
+                Coffee Cat Café is a cozy haven where coffee lovers and cat enthusiasts unite. Nestled in the heart of the city, our café offers a unique experience: enjoy premium coffee and delicious treats while spending time with our adorable resident cats.
+            </p>
+        </section>
+        <section class="about-story">
+            <h2>Our Story</h2>
+            <p>
+                Founded in 2018 by a group of passionate animal lovers, Coffee Cat Café was inspired by the desire to create a relaxing space where people can unwind, connect, and support animal welfare. Our mission is to provide a safe and loving environment for rescue cats while offering a memorable café experience for our guests. The cats were adopted when they were just kittens and some were rescued.
+            </p>
+        </section>
+        <section class="about-mission">
+            <h2>Our Mission</h2>
+            <ul>
+                <li>Serve high-quality, ethically sourced coffee and food.</li>
+                <li>Promote the adoption and well-being of rescue cats.</li>
+                <li>Foster a sense of community and relaxation for all visitors.</li>
+            </ul>
+        </section>
+        <section class="about-cats">
+            <h2>Meet Our Cats</h2>
+            <div class="cat-gallery">
+                <figure data-cat="mochi">
+                    <img src="images/cats/cat1.jpg" alt="Cat 1">
+                    <figcaption>Mochi</figcaption>
+                </figure>
+                <figure data-cat="simba">
+                    <img src="images/cats/cat2.jpg" alt="Cat 2">
+                    <figcaption>Simba</figcaption>
+                </figure>
+                <figure data-cat="tomtom">
+                    <img src="images/cats/cat3.jpeg" alt="Cat 3">
+                    <figcaption>Tomtom</figcaption>
+                </figure>
+                <figure data-cat="oliver">
+                    <img src="images/cats/cat4.jpeg" alt="Cat 4">
+                    <figcaption>Oliver</figcaption>
+                </figure>
+                <figure data-cat="willow">
+                    <img src="images/cats/cat5.jpg" alt="Cat 5">
+                    <figcaption>Willow</figcaption>
+                </figure>
+                <figure data-cat="chai">
+                    <img src="images/cats/cat6.jpg" alt="Cat 6">
+                    <figcaption>Chai</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <div id="cat-modal" class="cat-modal" style="display:none;">
+      <div class="cat-modal-content">
+        <span class="cat-modal-close">&times;</span>
+        <img id="cat-modal-img" src="" alt="Cat photo">
+        <h3 id="cat-modal-name"></h3>
+        <ul id="cat-modal-details"></ul>
+      </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Coffee Cat. All rights reserved. Created by Satwinder Jeerh of WD-303.</p>
+    </footer>
+    <script src="js/about.js"></script>
+</body>
+</html>
